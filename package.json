@@ -1,6 +1,6 @@
 {
-  "name": "@zoomit/dayjs-jalali-plugin",
-  "version": "0.0.6",
+  "name": "@hengam/dayjs-jalali-plugin",
+  "version": "0.0.7",
   "description": "Persian (Jalali, Khorshidi) Plugin for Day.js",
   "main": "dist/cjs/bundle.cjs.js",
   "web": "dist/umd/bundle.umd.js",
@@ -21,11 +21,11 @@
     "moment",
     "jalali"
   ],
-  "author": "tur1ng <mohammadali.ap.2000@gmail.com>",
+  "author": "ph98 <heidari1377@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoomit-org/Dayjs-Jalali-Plugin"
+    "url": "https://github.com/hengamapp/dayjs-jalali-plugin"
   },
   "files": [
     "dist",

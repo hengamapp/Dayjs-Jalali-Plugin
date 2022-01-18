@@ -1,6 +1,6 @@
 # Dayjs-Jalali-Plugin
-[![npm (scoped with tag)](https://img.shields.io/npm/v/@zoomit/dayjs-jalali-plugin/latest.svg?style=flat-square)](https://www.npmjs.com/package/@zoomit/dayjs-jalali-plugin)
-[![npm](https://img.shields.io/npm/dt/@zoomit/dayjs-jalali-plugin.svg?style=flat-square)](https://www.npmjs.com/package/@zoomit/dayjs-jalali-plugin)
+[![npm (scoped with tag)](https://img.shields.io/npm/v/@hengam/dayjs-jalali-plugin/latest.svg?style=flat-square)](https://www.npmjs.com/package/@hengam/dayjs-jalali-plugin)
+[![npm](https://img.shields.io/npm/dt/@hengam/dayjs-jalali-plugin.svg?style=flat-square)](https://www.npmjs.com/package/@hengam/dayjs-jalali-plugin)
 
 
 Persian (Jalali, Khorshidi) Plugin for [Day.js](https://github.com/iamkun/dayjs), This package add multi-calendar functionality to Day.js core regardless for of locale, so we can have Gregorian calendar is Persian locale of Jalali calendar in English locale
@@ -11,17 +11,17 @@ Unlike moment and becuase of immutablity of dayjs, there is no need for formats 
 ## Installation
 NPM
 ```
-npm install --save @zoomit/dayjs-jalali-plugin
+npm install --save @hengam/dayjs-jalali-plugin
 ```
 YARN
 ```
-yarn add @zoomit/dayjs-jalali-plugin
+yarn add @hengam/dayjs-jalali-plugin
 ```
 
 ## Usage
 ```javascript
 import dayjs from 'dayjs'
-import jalaliPlugin from '@zoomit/dayjs-jalali-plugin'
+import jalaliPlugin from '@hengam/dayjs-jalali-plugin'
 
 dayjs.extend(jalaliPlugin)
 ```

@@ -15,6 +15,6 @@ declare module 'dayjs' {
   }
 
   interface Dayjs {
-    calendar(calendarType: CalendarType): Dayjs;
+    toCalendar(calendarType: CalendarType): Dayjs;
   }
 }
