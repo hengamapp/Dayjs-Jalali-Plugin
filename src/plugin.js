@@ -50,7 +50,7 @@ export default (o, Dayjs, dayjs) => {
     return dayjs;
   };
 
-  proto.calendar = function (calendar) {
+  proto.toCalendar = function (calendar) {
     const that = this.clone();
     that.$C = calendar;
     if (that.isJalali()) {

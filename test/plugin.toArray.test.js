@@ -16,7 +16,7 @@ afterEach(() => {
 })
 
 test('Convert date to array', () => {
-  const date = dayjs('2018/09/03').calendar('gregory')
+  const date = dayjs('2018/09/03').toCalendar('gregory')
   expect(date.toArray()).toEqual([2018, 8, 3, 0, 0, 0, 0])
 })
 

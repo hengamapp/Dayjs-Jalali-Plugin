@@ -31,7 +31,7 @@ describe('Parse Valid String', () => {
     expect(date2.date()).toEqual(1)
   })
 
-  const gregory = date.calendar('gregory')
+  const gregory = date.toCalendar('gregory')
 
   test('convert to gregory', () => {
     expect(gregory.year()).toEqual(2018)

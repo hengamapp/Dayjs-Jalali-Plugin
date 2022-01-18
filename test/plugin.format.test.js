@@ -14,7 +14,7 @@ afterEach(() => {
 })
 
 it('format', () => {
-  expect(dayjs('2018/09/03').calendar('gregory').format('YYYY/MM/DD')).toEqual('2018/09/03')
+  expect(dayjs('2018/09/03').toCalendar('gregory').format('YYYY/MM/DD')).toEqual('2018/09/03')
 
   const date = dayjs('1397/06/13', { jalali: true })
   expect(date.format()).toContain('1397-06-13T00:00:00+')

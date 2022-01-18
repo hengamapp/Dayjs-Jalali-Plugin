@@ -52,6 +52,6 @@ const date = dayjs('1398-10-17', { jalali: true });
 ### Multiple Locale
 with combination of `calendar` and `locale` we have multi language for real
 ```javascript
-dayjs().calendar('jalali').locale('en').format('DD MMMM YYYY') // '13 Shahrivar 1397'
-dayjs().calendar('gregory').locale('fa').format('DD MMMM YYYY') // '04 سپتامبر 2018'
+dayjs().toCalendar('jalali').locale('en').format('DD MMMM YYYY') // '13 Shahrivar 1397'
+dayjs().toCalendar('gregory').locale('fa').format('DD MMMM YYYY') // '04 سپتامبر 2018'
 ```

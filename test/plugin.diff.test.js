@@ -30,7 +30,7 @@ describe('diff two dates', () => {
   })
 
   it('diff(day): a gregory and jalali', () => {
-    expect(a.calendar('gregory').diff(b, 'day')).toEqual(-100)
+    expect(a.toCalendar('gregory').diff(b, 'day')).toEqual(-100)
   })
 
   it('diff(year)', () => {

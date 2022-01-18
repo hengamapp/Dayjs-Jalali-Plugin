@@ -6,7 +6,7 @@ dayjs.extend(utc)
 dayjs.extend(jalali)
 
 it('Should respect utc', () => {
-  const date = dayjs.utc().calendar('jalali')
+  const date = dayjs.utc().toCalendar('jalali')
 
   expect(date.isUTC()).toBe(true)
 })
